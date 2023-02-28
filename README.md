@@ -1,13 +1,13 @@
-## this in js  :palm_tree:
+## :palm_tree: In JavaScript, `this`  :palm_tree:
 
-### Here are some common ways that this can be used  :do_not_litter: :
-
-
-1. :smiling_imp: Global context: When used in the global context, this refers to the global object, which is window in web browsers or global in Node.js.
+ ### Here are some common ways that this can be used  :do_not_litter: :
 
 
+1. :smiling_imp: `Global context`: When used in the global context, this refers to the global object, which is window in web browsers or global in Node.js.
 
-2. :smiling_imp: Object method: When a function is used as a method of an object, this refers to the object that the method is a property of. For example:
+
+
+2. :smiling_imp: `Object method` : When a function is used as a method of an object, this refers to the object that the method is a property of. For example:
 
 
 
@@ -26,7 +26,7 @@
  
  
  
- 3. :smiling_imp: Constructor function: When a function is used as a constructor function with the new keyword, this refers to the new object being created. For example:
+ 3. :smiling_imp: `Constructor function` : When a function is used as a constructor function with the new keyword, this refers to the new object being created. For example:
  
  
          function Person(name) {
@@ -46,7 +46,7 @@
    
    
    
-   4. :smiling_imp: Call and Apply methods: When a function is called using the call() or apply() method, this can be explicitly set to a specific object. For example:
+   4. :smiling_imp: `Call and Apply methods` : When a function is called using the call() or apply() method, this can be explicitly set to a specific object. For example:
    
    
    
@@ -73,7 +73,7 @@
  
  
  
- 5. :smiling_imp: Arrow functions: In arrow functions, this is determined lexically, meaning that it takes on the value of this in the context where the arrow function was defined. For example:
+ 5. :smiling_imp: `Arrow functions` : In arrow functions, this is determined lexically, meaning that it takes on the value of this in the context where the arrow function was defined. For example:
  
  
  
